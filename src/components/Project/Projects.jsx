@@ -29,6 +29,7 @@ const Projects = () => {
             <select name="" id="" className="selector" onChange={handleChange}>
                 <option value="">-Select a category-</option>
                 <option value="react">React</option>
+                <option value="js">JavaScript</option>
                 <option value="html">Html Css</option>
             </select>
         </h3>

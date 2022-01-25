@@ -55,6 +55,7 @@ a{
     position: relative;
     margin: 0 3rem;
     justify-content: space-between;
+    align-items:center;
     flex-wrap: wrap;
 }
 .left{
@@ -62,7 +63,7 @@ a{
 }
 
 .left > img{
-    height: 32rem;
+    height: 80vh;
 }
 
 .right{
@@ -185,3 +186,5 @@ select > option{
     font-weight: 800;
     font-size: 2rem;
 }
+
+

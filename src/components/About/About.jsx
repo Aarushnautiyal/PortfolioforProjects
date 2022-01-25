@@ -11,12 +11,11 @@ const About = () => {
                     <img src={story} className='story' alt='about'/>
                 </div> 
                 <div className='abt--right'>
-                    <h2 className='txt-align'>Heading</h2>
+                    <h2 className='txt-align'>A Misfit</h2>
                     <h3 className="about--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium asperiores 
-                    possimus quae placeat sequi? Explicabo ratione tenetur provident ex 
-                    voluptas itaque iste dolore, totam sapiente, veniam quaerat et deserunt amet!
+                    "Why bother in fittinng in When You can fit out"
                     </h3>
+                    <h3 className='about--para ltr'>A Tech Guy with Lot's of Energy and X2 enthusiasm towards tech. <br/>If you wanna build something and want someone who can shape your ideas and make something better out of it. You are at the right Place, So what you waiting For let's connect drop a message below</h3>
                 </div>                
             </div>
         </section>
