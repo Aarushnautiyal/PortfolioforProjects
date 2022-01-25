@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scrollbar-color: #FC0F0F #111;
+    scrollbar-width: thin;
+}
+
+.flx{
+    display: flex;
+}
+
+.mg5{
+    margin: 5px;
+}
+.pd5{
+    padding: 20px;
+}
+.mgr1{
+    margin-right: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FC0F0F;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.navigation > img{
+    width: 43px;
+}
+
+.header{
+    background: #111;
+    height: 100vh;
+}
+.wrapper{
+    position: relative;
+    margin: 0 3rem;
+    justify-content: space-between;
+}
+.left{
+    top: 0;
+}
+
+.left > img{
+    height: 32rem;
+}
+
+.right{
+    /* background-color: aliceblue; */
+    width: 40%;
+    padding: 2rem;
+}
+.intro{
+    color: #CAC1C1;
+    margin-right: 12rem;
+}
+
+.landing--text{
+    word-break: break-all;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.right > button{
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 5px;
+    border: 2px solid #FC0F0F;
+    font-weight: 600;
+}
+
+.right > button:hover{
+    background-color: #FC0F0F;
+    /* color: #111; */
+}
+
+.project{
+    background-color: #1C1A1A;
+    padding: 2rem;
+}
+
+.declaration--heading{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #FC0F0F;
+    padding: 2rem 0;
+}
+
+.selector{
+    padding: .3rem 2rem;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid  #FC0F0F;
+    color: #fff;
+    text-align: center;
+}
+select > option{
+    background-color: #FC0F0F;
+}
+
+.card--container{
+    margin: 4rem;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list{
+    background-color: #111;
+    padding: .4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.list button{
+    background-color: #FC0F0F;
+    border: none;
+    padding: 4px;
+    letter-spacing: 2px;
+    margin: 0 8px;
+}
+/* .list a{
+    color: #111;
+} */
+
+.card{
+    background: #FC0F0F;
+    box-shadow: .9rem -10px 0px #111;
+    margin: 2rem;
+    max-width: 30vh;
+}
+
+.card > p{
+    padding: 8px 20px;
+}
+
+.card > h3{
+    padding: 10px;
+}
+

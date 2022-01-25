@@ -1,0 +1,9 @@
+.about{
+    background-color: #111;
+}
+
+.about--para{
+    text-align: center;
+    color: #CAC1C1;
+    padding: 2rem 6rem;
+}
