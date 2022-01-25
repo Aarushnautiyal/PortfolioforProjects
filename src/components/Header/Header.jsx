@@ -4,18 +4,18 @@ import MainPoster from '../../images/mainPost.png'
 
 const Header = () => {
     return (
-         <header className="header">
+         <header className="header" id='home'>
             <nav className="flx navigation">
                 <img src={Logo} alt=""/>
                 <ul className="flx">
                     <a href="#home">
                         <li className="mgr1">Home</li>
                     </a>
-                    <a href="#about">
-                        <li className="mgr1">About</li>
-                    </a>
                     <a href="#projects">
                         <li className="mgr1">Projects</li>
+                    </a>
+                    <a href="#about">
+                        <li className="mgr1">About</li>
                     </a>
                     <a href="#contact">
                         <li className="mgr1">Contact</li>
@@ -30,7 +30,7 @@ const Header = () => {
                     <span className="intro">- Introduction</span>
                     <h1 className="landing--text">Software Designer and <br/> Devloper, based in <br/> Uttrakhand.</h1>
                     <br/><br/><br/><br/>
-                    <button>Know More</button>
+                    <a href="#about"><button>Know More</button></a>
                 </div>
             </div>
         </header>

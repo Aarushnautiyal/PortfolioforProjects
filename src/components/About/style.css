@@ -5,5 +5,30 @@
 .about--para{
     text-align: center;
     color: #CAC1C1;
-    padding: 2rem 6rem;
+    padding: 2rem;
+    width: 47vw;
+    /* margin: 2rem; */
+}
+
+.about--wrap{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.story{
+    /* background: chartreuse; */
+    /* width: 40vw; */
+    width: 40vw;
+}
+
+.abt--right{
+    /* background: chartreuse; */
+    margin: 0 0 0 4rem;
+    /* width: 50%; */
+}
+
+.txt-align{
+    text-align: center;
+    color: #FC0F0F;
 }

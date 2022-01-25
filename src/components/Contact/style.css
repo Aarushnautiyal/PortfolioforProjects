@@ -1,0 +1,43 @@
+.clmn{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clmn input, textarea{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #FC0F0F;
+    color: #CAC1C1;
+    text-align: center;
+    padding: .5rem;
+    margin: 1rem;
+    width: 30vw;
+}
+.jst{
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    padding: .8rem 2rem;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 5px;
+    border: 2px solid #FC0F0F;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #FC0F0F;
+    /* color: #111; */
+}
+
+.right--connect img{
+    height: 30vw;
+}

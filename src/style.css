@@ -5,6 +5,8 @@
     font-family: 'Roboto', sans-serif;
     scrollbar-color: #FC0F0F #111;
     scrollbar-width: thin;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 
 .flx{
@@ -34,8 +36,9 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 800;
-    letter-spacing: 3px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
     padding: 3rem;
     overflow: hidden;
 }
@@ -46,12 +49,13 @@ a{
 
 .header{
     background: #111;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .wrapper{
     position: relative;
     margin: 0 3rem;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .left{
     top: 0;
@@ -63,7 +67,8 @@ a{
 
 .right{
     /* background-color: aliceblue; */
-    width: 40%;
+    margin-top: 4rem;
+    width: 58ch;
     padding: 2rem;
 }
 .intro{
@@ -78,7 +83,7 @@ a{
     color: #fff;
 }
 
-.right > button{
+.right  button{
     outline: none;
     text-transform: uppercase;
     border: none;
@@ -91,7 +96,7 @@ a{
     font-weight: 600;
 }
 
-.right > button:hover{
+.right  button:hover{
     background-color: #FC0F0F;
     /* color: #111; */
 }
@@ -142,6 +147,7 @@ select > option{
 .list button{
     background-color: #FC0F0F;
     border: none;
+    cursor: pointer;
     padding: 4px;
     letter-spacing: 2px;
     margin: 0 8px;
@@ -163,5 +169,19 @@ select > option{
 
 .card > h3{
     padding: 10px;
+    text-transform: capitalize;
 }
 
+.tip{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: #FC0F0F;
+    padding: 1rem;
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+    clip-path: polygon(100% 46%, 100% 100%, 52% 79%, 0% 100%, 0 46%, 50% 0);
+    /* border-radius: 50%; */
+    border: none;
+    font-weight: 800;
+    font-size: 2rem;
+}

@@ -9,7 +9,7 @@ const Card = ({heading,description, github, website}) => {
                 </p>
                 <div className="list">
                     <a href={github}><button>Github</button></a>
-                    <button>Website</button>
+                     <a href={website}><button>Website</button></a>
                 </div>
             </div>
     )
