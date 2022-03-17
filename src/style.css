@@ -187,4 +187,14 @@ select > option{
     font-size: 2rem;
 }
 
-
+@media (max-width:600px) {
+    .mob--nav-false{
+        display:none;
+    }
+    .about--wrap{
+        flex-direction: column;
+    }
+    .wrapper{
+        justify-content: center;
+    }
+}

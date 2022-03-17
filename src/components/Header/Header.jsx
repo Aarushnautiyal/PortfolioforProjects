@@ -7,7 +7,7 @@ const Header = () => {
          <header className="header" id='home'>
             <nav className="flx navigation">
                 <img src={Logo} alt=""/>
-                <ul className="flx">
+                <ul className="flx mob--nav-false">
                     <a href="#home">
                         <li className="mgr1">Home</li>
                     </a>

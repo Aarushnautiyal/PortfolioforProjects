@@ -32,6 +32,13 @@
     border: 2px solid #FC0F0F;
     font-weight: 600;
 }
+.wrapper2{
+    position: relative;
+    margin: 0 3rem;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
 
 .btn:hover{
     background-color: #FC0F0F;
@@ -40,4 +47,27 @@
 
 .right--connect img{
     height: 30vw;
+}
+
+.notify{
+    /* height: 2rem; */
+    width: 30ch;
+    text-transform: capitalize;
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    padding: 1rem ;
+    background: #FC0F0F;
+    color: black;
+}
+
+.notify span{
+    position: absolute;
+    top: 9%;
+    right: 3%;
+    /* border-radius: 50%;
+    background: black; */
+    /* color: #FC0F0F; */
+    padding: .1rem;
+    font-size: .8rem;
 }
