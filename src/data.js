@@ -1,12 +1,12 @@
 const data = [
   {
     id: 1,
-    heading: "Meme Generator",
+    heading: "Dog Gallery",
     sub: "react",
-    description: `A Meme Generator app that let's you add text on the meme.
-Features Responsive, easy to understand U.I.`,
-    github: "https://github.com/Aarushnautiyal/memeGenerator",
-    website: "https://serene-aryabhata-2fab57.netlify.app/",
+    description: `Dog Gallery app helps you find evry breed of dog at one place.
+  Features Responsive, easy to understand U.I.`,
+    github: "https://github.com/Aarushnautiyal/shwanRuchi",
+    website: "https://agitated-ritchie-b9ccdf.netlify.app/",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ Features Responsive, search shows and actors.`,
     sub: "react",
     description: `
     This is a todo app created with the purpose of keeping tabs on your day to day work, easy to use and understand.`,
-     github: "https://github.com/Aarushnautiyal/reactTodo",
+    github: "https://github.com/Aarushnautiyal/reactTodo",
     website: "https://meek-dragon-30bf1f.netlify.app/",
   },
   {
@@ -54,6 +54,15 @@ JavaScript`,
 HTML/CSS`,
     github: "https://github.com/Aarushnautiyal/myResume",
     website: "https://eager-khorana-8295c5.netlify.app/",
+  },
+  {
+    id: 7,
+    heading: "Meme Generator",
+    sub: "react",
+    description: `A Meme Generator app that let's you add text on the meme.
+Features Responsive, easy to understand U.I.`,
+    github: "https://github.com/Aarushnautiyal/memeGenerator",
+    website: "https://serene-aryabhata-2fab57.netlify.app/",
   },
 ];
 
