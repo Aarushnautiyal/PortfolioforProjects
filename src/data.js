@@ -20,11 +20,11 @@ Features Responsive, search shows and actors.`,
   {
     id: 3,
     heading: "Todo App",
-    sub: "js",
+    sub: "react",
     description: `
     This is a todo app created with the purpose of keeping tabs on your day to day work, easy to use and understand.`,
-    github: "https://github.com/Aarushnautiyal/jsProjects/tree/master/theBox",
-    website: "https://admiring-mccarthy-f2e272.netlify.app/thebox/",
+     github: "https://github.com/Aarushnautiyal/reactTodo",
+    website: "https://meek-dragon-30bf1f.netlify.app/",
   },
   {
     id: 4,
@@ -54,15 +54,6 @@ JavaScript`,
 HTML/CSS`,
     github: "https://github.com/Aarushnautiyal/myResume",
     website: "https://eager-khorana-8295c5.netlify.app/",
-  },
-  {
-    id: 7,
-    heading: "Todo",
-    sub: "react",
-    description: `It's a todo app designed and devloped to keep track of your daily todo task
-HTML/CSS`,
-    github: "https://github.com/Aarushnautiyal/reactTodo",
-    website: "https://meek-dragon-30bf1f.netlify.app/",
   },
 ];
 
