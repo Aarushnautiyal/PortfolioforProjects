@@ -40,7 +40,7 @@ JavaScript`,
     id: 5,
     heading: "MealFinder-app",
     sub: "js",
-    description: `This is a Rock Paper Scissor game, design and developed to play with the computer.
+    description: `This is a MealFinder app, design and developed to find perfect mal for your hunger.
 HTML/CSS
 JavaScript`,
     github: "https://github.com/Aarushnautiyal/mealFinder.git",
@@ -54,6 +54,15 @@ JavaScript`,
 HTML/CSS`,
     github: "https://github.com/Aarushnautiyal/myResume",
     website: "https://eager-khorana-8295c5.netlify.app/",
+  },
+  {
+    id: 7,
+    heading: "Todo",
+    sub: "react",
+    description: `It's a todo app designed and devloped to keep track of your daily todo task
+HTML/CSS`,
+    github: "https://github.com/Aarushnautiyal/reactTodo",
+    website: "https://meek-dragon-30bf1f.netlify.app/",
   },
 ];
 
