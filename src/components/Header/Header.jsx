@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from "../../images/portLogo.png"
+import ham from '../../images/ham.png'
 import MainPoster from '../../images/mainPost.png'
 
 const Header = () => {
+    const [show,setShow] = useState(false)
     return (
          <header className="header" id='home'>
             <nav className="flx navigation">
@@ -21,6 +23,23 @@ const Header = () => {
                         <li className="mgr1">Contact</li>
                     </a>
                 </ul>
+                   <div className="mob" onClick={()=>setShow(prev=>!prev)}>
+                        <img src={ham} alt=""/>
+                    {show&&<ul className=" mob--nav-true">
+                    <a href="#home">
+                        <li className="mgr1">Home</li>
+                    </a>
+                    <a href="#projects">
+                        <li className="mgr1">Projects</li>
+                    </a>
+                    <a href="#about">
+                        <li className="mgr1">About</li>
+                    </a>
+                    <a href="#contact">
+                        <li className="mgr1">Contact</li>
+                    </a>
+                </ul>}
+                   </div>
             </nav>
             <div className="wrapper flx">
                 <div className="left">

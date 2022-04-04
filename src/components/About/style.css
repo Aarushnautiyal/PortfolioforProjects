@@ -29,7 +29,8 @@
 .abt--right{
     /* background: chartreuse; */
     margin: 0 0 0 4rem;
-    /* width: 50%; */
+    
+    /* width: 100vw; */
 }
 
 .txt-align{

@@ -6,6 +6,7 @@ import './style.css'
 const Contact = () => {
 
     const [showNotification, setShowNotification] = useState(false)
+    const [message, setMessage] = useState("thank you for contacting i'll be in touch")
     function sendEmail(e) {
     e.preventDefault();
 
@@ -14,20 +15,33 @@ const Contact = () => {
         "service_zalfq1n",
         "template_2wiemyw",
         e.target,
-        "user_vBrUxJPSRpUGjPrF2JNzW"
+        "user_vBrUxJPSRpUGjPrF2JNzW",
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
+          setMessage("thank you for contacting i'll be in touch")
           setShowNotification(true)
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
+          setMessage("Internal Server Error")
         }
       );
-      e.target.reset();
+      e.target.reset()
+      // const data = {}
+      // setFormData(data)
     //   alert("thank you for contacting i'll be in touch");
   }
+
+  // const handleChange=(e)=>{
+  //   const {name,value} = e.target
+    
+  //   setFormData(prev=>({
+  //     ...prev,
+  //     [name]:value
+  //   }))
+  // }
 //   Email
     return (
         <section className="project" id='contact'>
@@ -37,16 +51,16 @@ const Contact = () => {
                 <img src={connect} alt=""/>
             </div>
             <div className="left--connect">
-                <form className='flx clmn' onSubmit={(e)=>sendEmail(e)}>
-                    <input type="text" placeholder='Name'/>
-                    <input type="text" placeholder='Email'/>
-                    <textarea name="message" placeholder='Message' id="" cols="30" rows="2"></textarea>
+                <form className='flx clmn' onSubmit={sendEmail}>
+                    <input type="text" placeholder='Name' name='name' required/>
+                    <input type="email" placeholder='Email' name='email' required/>
+                    <textarea name="message" type='message' placeholder='Message' id="" cols="30" rows="2"></textarea>
                     <button className='btn'>Send</button>
                 </form>
             </div>
         </div>
        {showNotification&& <div className="notify">
-            thank you for contacting i'll be in touch
+            {message}
             <span onClick={()=>setShowNotification(false)}>X</span>
         </div>}
     </section>
