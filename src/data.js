@@ -10,12 +10,12 @@ const data = [
   },
   {
     id: 2,
-    heading: "TV Maze",
+    heading: "Shopping App",
     sub: "react",
-    description: `TV Maze app let's you find actors and shows on the go.
-Features Responsive, search shows and actors.`,
-    github: "https://github.com/Aarushnautiyal/testtobedel",
-    website: "https://friendly-pike-94d812.netlify.app/",
+    description: `Shopping App is an app created with React Redux and react-router
+    for dynamic routes`,
+    github: "https://github.com/Aarushnautiyal/react--redux--shop",
+    website: "https://statuesque-rugelach-ddd690.netlify.app/",
   },
   {
     id: 3,
@@ -28,6 +28,15 @@ Features Responsive, search shows and actors.`,
   },
   {
     id: 4,
+    heading: "TV Maze",
+    sub: "react",
+    description: `TV Maze app let's you find actors and shows on the go.
+Features Responsive, search shows and actors.`,
+    github: "https://github.com/Aarushnautiyal/testtobedel",
+    website: "https://friendly-pike-94d812.netlify.app/",
+  },
+  {
+    id: 5,
     heading: "Rock Paper Scissor",
     sub: "js",
     description: `This is a Rock Paper Scissor game, design and developed to play with the computer.
@@ -37,7 +46,7 @@ JavaScript`,
     website: "https://admiring-mccarthy-f2e272.netlify.app/noidea/",
   },
   {
-    id: 5,
+    id: 6,
     heading: "MealFinder-app",
     sub: "js",
     description: `This is a MealFinder app, design and developed to find perfect mal for your hunger.
@@ -47,7 +56,7 @@ JavaScript`,
     website: "https://practical-khorana-7abaf4.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     heading: "Resume",
     sub: "html",
     description: `It was my one of the first project i build to learn how to make something responsive
@@ -56,7 +65,7 @@ HTML/CSS`,
     website: "https://eager-khorana-8295c5.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     heading: "Meme Generator",
     sub: "react",
     description: `A Meme Generator app that let's you add text on the meme.
